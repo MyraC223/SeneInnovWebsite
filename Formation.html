@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formations - SenèInnov</title>
+  <meta name="description" content="Découvrez nos formations innovantes pour maîtriser les nouvelles technologies dans l'agriculture.">
+  <meta name="keywords" content="formation, agriculture, semence, technologie, SenèInnov">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header id="header" class="header sticky-top">
+
+    <div class="topbar d-flex align-items-center">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="contact-info d-flex align-items-center">
+          <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com"> seneinnov@gamil.com </a></i>
+          <i class="bi bi-phone d-flex align-items-center ms-4"><span> +223 93238044 </span></i>
+        </div>
+        <div class="social-links d-none d-md-flex align-items-center">
+          <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div><!-- End Top Bar -->
+
+    <div class="branding d-flex align-items-cente">
+
+      <div class="container position-relative d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.png" alt=""> -->
+          <h1 class="sitename"> SenèInnov </h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html" class="active"> Accueil </a></li>
+            <li><a href="#about"> A propos </a></li>
+            <li><a href="#services"> Services </a></li>
+            <li><a href="#portfolio"> Portefeuille </a></li>
+            <li><a href="#team">  Membres </a></li>
+            
+            <li><a href="#contact"> Contact </a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+      </div> 
+
+    </div>
+
+  </header>
+
+  <!-- Main Section -->
+  <main id="main">
+
+    <!-- Page Title -->
+    <section class="page-title">
+      <div class="container text-center">
+        <h1> Nos Formations </h1>
+        <p> Formez-vous aux nouvelles technologies pour améliorer vos pratiques agricoles. </p>
+      </div>
+    </section> 
+
+    <!-- Formations Details Section -->
+    <section id="service-details" class="service-details">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4">
+        
+            <h4> Pourquoi suivre nos formations ? </h4>
+            <p> Nos formations sont conçues pour vous aider à adopter les nouvelles technologies en agriculture, que ce soit pour améliorer la production de semence, l'optimisation des ressources ou la mécanisation des pratiques agricoles.</p>
+          </div>
+
+          <div class="col-lg-8">
+            <h3>Inscrivez-vous à nos formations spécialisées</h3>
+            <p>Nos formations vous permettent de maîtriser les outils modernes tels que les drones agricoles, la robotique, les techniques de culture avancées et bien plus encore.</p>
+            <ul>
+              <li>Formation en Semence</li>
+              <li>Formation en Agriculture de Précision</li>
+              <li>Formation en Mécanisation Agricole</li>
+            </ul>
+
+            <h3>Formulaire de demande de formation</h3>
+            <form action="envoyer_demande.php" method="post" class="mt-4">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <label for="nom"> Nom Complet :</label>
+                  <input type="text" name="nom" id="nom" class="form-control" placeholder="Votre nom" required>
+                </div>
+                <div class="col-md-6 form-group">
+                  <label for="email"> Adresse Email :</label>
+                  <input type="email" name="email" id="email" class="form-control" placeholder="Votre email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <label for="formation"> Formation désirée :</label>
+                <select name="formation" id="formation" class="form-control">
+                  <option value="semence"> Formation en Semence </option>
+                  <option value="agriculture"> Formation en Agriculture </option>
+                  <option value="mecanisation"> Formation en Mécanisation Agricole </option>
+                </select>
+              </div>
+              <div class="form-group mt-3">
+                <label for="message">Message :</label>
+                <textarea name="message" id="message" class="form-control" rows="4" placeholder="Expliquez votre besoin" required></textarea>
+              </div>
+              <div class="text-center mt-4">
+                <button type="submit" class="btn btn-primary"> Envoyer la demande </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main><!-- End Main Section -->
+
+  <!-- Footer -->
+  <footer id="footer" class="footer light-background">
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename"> SenèInnov </span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p> Bamako-Mali 91093 </p>
+            <p> Hamdallaye ACI2000 </p>
+            <p class="mt-3"><strong>Téléphone:</strong> +223 93238044</p>
+            <p><strong> Email:</strong> seneinnov@gmail.com </p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4> Liens</h4>
+          <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">A Propos</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Termes des services</a></li>
+            <li><a href="#">Politique de Confidentialité</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-3 footer-links">
+          <h4>Nos Services</h4>
+          <ul>
+            <li><a href="#">Location SenèBot</a></li>
+            <li><a href="#">Vente SenèBot</a></li>
+            <li><a href="#">Formations</a></li>
+            <li><a href="#">Conseils</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 footer-newsletter">
+          <h4>Rejoignez Notre Newsletter</h4>
+          <p>Recevez les dernières nouvelles sur les innovations technologiques dans l'agriculture.</p>
+          <form action="newsletter.php" method="post">
+            <input type="email" name="email" class="form-control"><input type="submit" value="Souscrire">
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright <strong><span>SenèInnov</span></strong>. Tous droits réservés.
+      </div>
+      <div class="credits">
+        Réalisé par <a href="#">SenèInnov</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
